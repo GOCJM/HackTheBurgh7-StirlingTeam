@@ -6,7 +6,6 @@
 @section('page-class', 'index-page')
 
 @section('content')
-<div class="cd-section" id="blogs">
     <div class="blogs-1" id="blogs-1">
         <div class="container">
             <div class="row">
@@ -58,5 +57,4 @@
             </div>
         </div>
     </div>
-</div>
 @stop

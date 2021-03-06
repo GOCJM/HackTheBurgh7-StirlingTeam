@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-    <title>Hello, world!</title>
+    <title>@yield('title')</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
@@ -13,7 +13,7 @@
     <link href="{{asset('css/material-kit.css?v=2.2.0')}}" rel="stylesheet" />
     </head>
 
-    <body>
+    <body class="@yield('page-class') sidebar-collapse">
         @include('layouts.includes.nav')
         @include('layouts.includes.header')
         <div class="main main-raised">

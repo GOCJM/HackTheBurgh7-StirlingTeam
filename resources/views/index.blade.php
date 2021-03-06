@@ -43,7 +43,6 @@
                     </h3>
                     <p class="card-description">
                         We have provided games in the form of quizzes to allow you to test your reaction skills and knowledge of keyboard shortcuts. You can gain points and climb the leaderboard. How fast are you? Let's find out!
-                        <a href="#pablo"> Read More </a>
                     </p>
                     </div>
                     <div class="col-md-5">

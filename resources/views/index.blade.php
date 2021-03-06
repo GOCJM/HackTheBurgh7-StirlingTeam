@@ -20,7 +20,7 @@
                         <a href="#pablito">
                         <img class="img" src="./assets/img/examples/card-blog4.jpg">
                         </a>
-                    <div class="colored-shadow" style="background-image: url(&quot;https://demos.creative-tim.com/material-kit-pro/assets/img/examples/card-blog4.jpg&quot;); opacity: 1;"></div></div>
+                    <div class="colored-shadow" style="background-image: ; opacity: 1;"></div></div>
                     </div>
                     <div class="col-md-7">
                     <h6 class="card-category text-info">Quick Fire!</h6>
@@ -28,14 +28,10 @@
                         <a href="#pablo">Test your knowledge of Keyboard Shortcuts.</a>
                     </h3>
                     <p class="card-description">
-                        Like so many organizations these days, Autodesk is a company in transition. It was until recently a traditional boxed software company selling licenses. Today, it’s moving to a subscription model. Yet its own business model disruption is only part of the story — and…
-                        <a href="#pablo"> Read More </a>
+                        This game will allow you test your reaction skills and knowledge of keyboard shortcuts to gain points and climb the leaderboard. How fast are you? Let's find out!
                     </p>
                     <p class="author">
-                        by
-                        <a href="#pablo">
-                        <b>Mike Butcher</b>
-                        </a>, 2 days ago
+                       2 days ago
                     </p>
                     </div>
                 </div>

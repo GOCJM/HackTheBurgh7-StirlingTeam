@@ -11,7 +11,7 @@
         <div class="container">
             <div class="row">
             <div class="col-md-10 ml-auto mr-auto">
-                <h2 class="title">Latest Blogposts</h2>
+                <h2 class="title">Learning Resources</h2>
                 <br>
                 <div class="card card-plain card-blog">
                 <div class="row">
@@ -23,15 +23,12 @@
                     <div class="colored-shadow" style="background-image: ; opacity: 1;"></div></div>
                     </div>
                     <div class="col-md-7">
-                    <h6 class="card-category text-info">Quick Fire!</h6>
+                    <h6 class="card-category text-info">Tutorials</h6>
                     <h3 class="card-title">
-                        <a href="#pablo">Test your knowledge of Keyboard Shortcuts.</a>
+                        <a href="#pablo">Learn as much as you want</a>
                     </h3>
                     <p class="card-description">
-                        This game will allow you test your reaction skills and knowledge of keyboard shortcuts to gain points and climb the leaderboard. How fast are you? Let's find out!
-                    </p>
-                    <p class="author">
-                       2 days ago
+                        We provide many tutorials to show you how to develop basic technical skills that can make your life easier when navigating the web.
                     </p>
                     </div>
                 </div>
@@ -40,20 +37,14 @@
                 <div class="row">
                     <div class="col-md-7">
                     <h6 class="card-category text-danger">
-                        <i class="material-icons">trending_up</i> Trending
+                        Quick Fire!
                     </h6>
                     <h3 class="card-title">
-                        <a href="#pablo">6 insights into the French Fashion landscape</a>
+                        <a href="#pablo">Test your knowledge of Keyboard Shortcuts</a>
                     </h3>
                     <p class="card-description">
-                        Like so many organizations these days, Autodesk is a company in transition. It was until recently a traditional boxed software company selling licenses. Today, it’s moving to a subscription model. Yet its own business model disruption is only part of the story — and…
+                        We have provided games in the form of quizzes to allow you to test your reaction skills and knowledge of keyboard shortcuts. You can gain points and climb the leaderboard. How fast are you? Let's find out!
                         <a href="#pablo"> Read More </a>
-                    </p>
-                    <p class="author">
-                        by
-                        <a href="#pablo">
-                        <b>Mike Butcher</b>
-                        </a>, 2 days ago
                     </p>
                     </div>
                     <div class="col-md-5">

@@ -17,22 +17,26 @@
                                             <i class="material-icons">face</i>
                                         </span>
                                     </div>
-                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus placeholder="Email...">
-                                @error('email')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
+                                    <input id="email" type="email" class="form-control @error('email') is-invalid @enderror"
+                                        name="email" value="{{ old('email') }}" required autocomplete="email" autofocus
+                                        placeholder="Email...">
+                                    @error('email')
+                                        <span class="invalid-feedback" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                    @enderror
                                 </div>
                             </span>
                             <span class="bmd-form-group">
                                 <div class="input-group">
                                     <div class="input-group-prepend">
                                         <span class="input-group-text">
-                                        <i class="material-icons">lock_outline</i>
+                                            <i class="material-icons">lock_outline</i>
                                         </span>
                                     </div>
-                                    <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password" placeholder="Password...">
+                                    <input id="password" type="password"
+                                        class="form-control @error('password') is-invalid @enderror" name="password"
+                                        required autocomplete="current-password" placeholder="Password...">
                                     @error('password')
                                         <span class="invalid-feedback" role="alert">
                                             <strong>{{ $message }}</strong>
@@ -43,10 +47,12 @@
                         </div>
                         <div class="card-footer justify-content-center">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
+                                <input class="form-check-input" type="checkbox" name="remember" id="remember"
+                                    {{ old('remember') ? 'checked' : '' }}>
 
                                 <label class="form-check-label">
-                                    <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }} value="">
+                                    <input class="form-check-input" type="checkbox" name="remember" id="remember"
+                                        {{ old('remember') ? 'checked' : '' }} value="">
                                     {{ __('Remember Me') }}
                                     <span class="form-check-sign">
                                         <span class="check"></span>
@@ -64,7 +70,7 @@
                         </div>
                         <p class="card-description text-center">Dont have an account?</p>
                         <div class="card-footer justify-content-center">
-                            <a href="{{'register'}}" class="btn btn-rose btn-link btn-lg">Register</a>
+                            <a href="{{ 'register' }}" class="btn btn-rose btn-link btn-lg">Register</a>
                         </div>
                     </div>
                 </form>

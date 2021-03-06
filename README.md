@@ -6,7 +6,7 @@
 https://code.visualstudio.com/
 
 when downloaded
-click extentions
+click extensions
 
 ![image](https://user-images.githubusercontent.com/38226871/110156522-fade0c80-7dde-11eb-9fec-892d0af54500.png)
 

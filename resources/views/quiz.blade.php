@@ -13,7 +13,8 @@
                     <div class="card-body" style="height: 85vh">
                         <div class="row">
                             <div class="center">
-                                test
+                                <h1 id="question"></h1>
+                                <p id="points"></p>
                             </div>
                         </div>
                         {{-- <div class="row">

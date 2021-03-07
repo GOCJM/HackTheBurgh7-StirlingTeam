@@ -12,13 +12,13 @@
         <!-- Material Kit CSS -->
         <link href="{{asset('css/material-kit.css?v=2.2.0')}}" rel="stylesheet" />
         <link href="{{asset('css/custom.css')}}" rel="stylesheet" />
-        <link href="{{asset('js/quickFireQuiz.js')}}" rel="script" />
     </head>
 
     <body class="@yield('page-class') sidebar-collapse" style="width: 100vw; height: 100vh; background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);">
         @yield('content')
         <!--   Core JS Files   -->
+        <script src="{{asset('js/quickFireQuiz.js')}}" type="text/javascript"></script>
         <script src="{{asset('js/core/jquery.min.js')}}" type="text/javascript"></script>
         <script src="{{asset('js/core/popper.min.js')}}" type="text/javascript"></script>
         <script src="{{asset('js/core/bootstrap-material-design.min.js')}}" type="text/javascript"></script>

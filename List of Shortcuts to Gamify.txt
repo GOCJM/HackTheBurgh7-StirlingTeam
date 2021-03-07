@@ -1,0 +1,51 @@
+List of Shortcuts to Gamify:
+    1) Mac:
+        {
+            Copy : CMD + C;
+            Paste: CMD + V;
+            Cut and Copy: CMD + X;
+            Undo: CMD + Z;
+            Select All: CMD + A;
+            Find: CMD + F;
+            Find Next: CMD + G;
+            Find Previous: CMD + SHIFT + G;
+            Hide Window: CMD + H;
+            Hide All But Focused App: CMD + OPTION + H;
+            Minimise: CMD + M;
+            Minimise All: CMD + OPTION + M;
+            New Document: CMD + N;
+            Open: CMD + O;
+            Print: CMD + P;
+            Save: CMD + S;
+            Close Window: CMD + W;
+            Close All Windows: CMD + OPTION + W;
+            Quit: CMD + Q;
+            Force Quit: CMD + OPTION + Esc;
+            Switch Apps: CMD + TAB;
+            Screenshot Utility: CMD + SHIFT + 5;
+            Screenshot Entire Screen:  CMD + SHIFT + 3;
+            Screenshot Selected Area:  CMD + SHIFT + 4;
+            Screenshot Window:  CMD + SHIFT + 4 + SPACE;
+        }
+    2) Windows:
+        {
+            Copy : CTRL + C;
+            Paste: CTRL + V;
+            Cut and Copy: CTRL + X;
+            Undo: CTRL + Z;
+            Select All: CTRL + A;
+            Find: CTRL + F;
+            Hide Window: WIN + D;
+            Hide All: WIN + M;
+            Minimise: WIN + DOWN_ARROW;
+            New Document: CTRL + N;
+            Open: CTRL + O;
+            Print: CTRL + P;
+            Save: CTRL + S;
+            Close Window: ALT + F4;
+            Quit: ALT + F + X;
+            Force Quit: CTRL + ALT + DEL;
+            Switch Apps: ALT + TAB;
+            Screenshot Entire Screen:  WIN + PrtScn;
+            Screenshot Selected Area:  WIN + SHIFT + S;
+        }

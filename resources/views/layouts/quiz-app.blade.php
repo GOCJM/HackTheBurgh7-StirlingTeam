@@ -16,11 +16,7 @@
 
     <body class="@yield('page-class') sidebar-collapse" style="width: 100vw; height: 100vh; background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);">
-        <div>
-            <div class="container">
-                @yield('content')
-            </div>
-        </div>
+        @yield('content')
         <!--   Core JS Files   -->
         <script src="{{asset('js/core/jquery.min.js')}}" type="text/javascript"></script>
         <script src="{{asset('js/core/popper.min.js')}}" type="text/javascript"></script>

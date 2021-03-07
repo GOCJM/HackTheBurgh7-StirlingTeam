@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-md-8 ml-auto mr-auto">
             <div class="brand text-center">
-                <h1>Your title here</h1>
-                <h3 class="title text-center">Subtitle</h3>
+                <h1>@yield('header-title')</h1>
+                <h3 class="title text-center">@yield('header-desc')</h3>
             </div>
             </div>
         </div>

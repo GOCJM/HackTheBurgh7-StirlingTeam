@@ -17,7 +17,7 @@
                             <div class="row">
                                 <div class="col-md-5">
                                     <div class="card-header card-header-image">
-                                        <a href="#"><img class="img" src="{{ asset('img/computerSkills.png') }}"></a>
+                                        <a href="{{route('quiz.index')}}"><img class="img" src="{{ asset('img/computerSkills.png') }}"></a>
                                         <div class="colored-shadow"
                                             style="background-image: url({{ asset('img/computerSkills.png') }}); opacity: 1;">
                                         </div>
@@ -25,7 +25,7 @@
                                 </div>
                                 <div class="col-md-7">
                                     <h3 class="card-title">
-                                        <a href="#pablo">Test your knowledge of Keyboard Shortcuts.</a>
+                                        <a href="#">Test your knowledge of Keyboard Shortcuts.</a>
                                     </h3>
                                     <p class="card-description">
                                         This game will allow you test your reaction skills and knowledge of keyboard
@@ -39,7 +39,7 @@
                             <div class="row">
                                 <div class="col-md-7">
                                     <h3 class="card-title">
-                                        <a href="#pablo">6 insights into the French Fashion landscape</a>
+                                        <a href="#">6 insights into the French Fashion landscape</a>
                                     </h3>
                                     <p class="card-description">
                                         Like so many organizations these days, Autodesk is a company in transition. It was
@@ -50,7 +50,7 @@
                                 </div>
                                 <div class="col-md-5">
                                     <div class="card-header card-header-image">
-                                        <img class="img img-raised" src="{{ asset('img/checkMark.png') }}">
+                                        <a href="#"><img class="img img-raised" src="{{ asset('img/checkMark.png') }}"></a>
                                         <div class="colored-shadow"
                                             style="background-image: url({{ asset('img/checkMark.png') }}); opacity: 1;">
                                         </div>

@@ -15,4 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'HomeController@index')->name('index');
 
+Route::resource('quiz', 'QuizController');
+Route::resource('profile', 'ProfileController');
+
 Auth::routes();

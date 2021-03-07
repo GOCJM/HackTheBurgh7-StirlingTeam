@@ -30,12 +30,10 @@ let points = 0;
 
 function addPoints() {
     points += 10;
-    var elem = document.getElementById('points');
-    elem.innerHTML = "Points: " + points;
+    document.getElementById("points").innerHTML = "Points: " + points;
 }
 
 function checkCode(answer, expectedAnswer) {
-    console.log(expectedAnswer)
     for (var key in macDictionary) {
         if (macDictionary[key] === answer) {
             if (answer === expectedAnswer) {
@@ -50,10 +48,15 @@ function checkCode(answer, expectedAnswer) {
 let string = "";
 function quiz() {
     var keys = Object.keys(macDictionary);
-    var question = macDictionary[keys[keys.length * Math.random() << 0]];
-    document.getElementById("question").innerHTML = "Question: What is the " + question + " shortcut on Mac?";
-    return macDictionary[question];
+    // var answer = macDictionary[keys[keys.length * Math.random() << 0]];
+    // var question = Object.keys(macDictionary).find(key => macDictionary[key] === answer);
+    var answer = macDictionary["Copy"];
+    var question = Object.keys(macDictionary).find(key => macDictionary[key] === answer);
+    document.getElementById("question").innerHTML = "Question: What is the <b>"+question+"</b> shortcut on Mac?";
+    return answer;
 };
+
+let eA = quiz();
 
 function keyPress(e) {
     string = "";
@@ -195,7 +198,7 @@ function keyPress(e) {
     }
     checkCode(string, eA);
 }
-quiz()
+
 document.onkeydown = keyPress;
 
 // function KeyPress(e) {
